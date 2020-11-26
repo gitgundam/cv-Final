@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  border: 1px solid red;
+  margin: 5px;
+  padding: 20px;
+}
+strong{
+  color: #f60;
+}
+a{
+  text-decoration: none;
+  color: #3782c9;
+}
+p{
+  color: #666;
+}
+.info p{
+  font-size: 15px;
+  line-height: 1;
+}
+
+.skill li{
+  color: #666;
+}
