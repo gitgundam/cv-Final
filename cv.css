@@ -4,8 +4,7 @@
 
 body{
   border: 1px solid red;
-  margin: 5px;
-  padding: 20px;
+  margin: 10px;
 }
 strong{
   color: #f60;
@@ -17,11 +16,52 @@ a{
 p{
   color: #666;
 }
+.info h1{
+  margin: 5px 0;
+}
 .info p{
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1;
 }
-
+section{
+  border-bottom: 3px solid #007acc;
+  position: relative;
+}
 .skill li{
   color: #666;
+}
+
+.projets ol{
+  margin: 0;
+  padding: 0 10px;
+  list-style: none;
+}
+
+.projets li{
+  border: 1px solid blue;
+}
+
+.projets li .title{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.projets li .title>span{
+  font-size: 13px;
+  margin-left: 30px;
+}
+.title a{
+  border: 1px solid;
+  margin-left: 30px;
+  padding:0 5px;
+  border-radius: 5px;
+}
+.title a:hover{
+  color: #f60;
+}
+
+.jobs > section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
