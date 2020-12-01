@@ -1,60 +1,72 @@
 *{
   box-sizing: border-box;
+  color: #333;
 }
 
 body{
-  border: 1px solid red;
-  margin: 10px;
+  margin: 10px auto;
+  max-width: 900px;
+}
+h1{
+  margin: 0;
+  border-bottom: 3px solid #3987cb;
+}
+b{
+  color:#333;
+}
+h2{
+  margin: 10px 0;
 }
 strong{
   color: #f60;
 }
+
 a{
-  text-decoration: none;
   color: #3782c9;
 }
 p{
   color: #666;
 }
+
 .info h1{
-  margin: 5px 0;
+  border: none;
 }
 .info p{
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1;
 }
-section{
-  border-bottom: 3px solid #007acc;
-  position: relative;
-}
+
 .skill li{
   color: #666;
 }
 
 .projets ol{
-  margin: 0;
+  margin: 10px 0;
   padding: 0 10px;
   list-style: none;
 }
 
 .projets li{
-  border: 1px solid blue;
+  font-size: 15px;
 }
-
+.projets li p{
+  margin: 5px 0;
+  width: 95%;
+}
 .projets li .title{
+  width: 95%;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
-.projets li .title>span{
-  font-size: 13px;
-  margin-left: 30px;
-}
+
+
 .title a{
   border: 1px solid;
   margin-left: 30px;
   padding:0 5px;
   border-radius: 5px;
+  text-decoration: none;
 }
 .title a:hover{
   color: #f60;

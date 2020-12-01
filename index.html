@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="cv.css">
   <title>王威的简历</title>
 </head>
+
 <body>
   <section class="info">
     <h1>王威</h1>
     <p>男 | 24岁 | 前端开发工程师 | 大专 </p>
     <p>手机/微信: 17826802670 | 邮箱: 335968838@qq.com</p>
-    <p><a href="https://blog.csdn.net/MS6324_ZAKU?spm=1001.2014.3001.5113" target="_blank">我的博客</a>,目前已有<strong>52</strong>篇技术博客,目前持续更新中</p>
+    <p><a href="https://blog.csdn.net/MS6324_ZAKU?spm=1001.2014.3001.5113"
+        target="_blank">我的博客</a>,目前已有<strong>52</strong>篇技术博客,目前持续更新中</p>
     <p><a href="https://github.com/gitgundam" target="_blank">我的GitHub</a>,过去4个月有200多次提交</p>
   </section>
   <section class="skill">
@@ -19,12 +22,16 @@
     <ul>
       <li>能够使用 HTML5 标签编写<strong>语义化</strong>页面</li>
       <li>熟练使用 CSS/SCSS ,<strong>文档流</strong>,<strong>盒模型</strong>, flex/grid定位</li>
-      <li>掌握JavaScript, <strong>TypeScript</strong> ,ES6+语法 , DOM操作 , BOM , Ajax , JSONP, 跨域 , 闭包 , <strong>原型链</strong>, <strong>this</strong> ,面向对象,Promis的使用
+      <li>掌握JavaScript, <strong>TypeScript</strong> ,ES6+语法 , DOM操作 , BOM , Ajax , JSONP, 跨域 , 闭包 ,
+        <strong>原型链</strong>, <strong>this</strong> ,面向对象,Promis的使用
       </li>
-      <li>掌握 <strong>Vue</strong> / <strong>Vuex</strong> / <strong>Vue-router</strong> / <strong>Vue-CLI</strong> / <strong>axios</strong> 的使用,能够使用Vue进行基本开发</li>
-      <li>熟悉 <strong>React</strong> / <strong>Redux</strong> /<strong>react-redux</strong> / <strong>React-Router</strong> / <strong>Hooks API</strong> 的使用</li>
+      <li>掌握 <strong>Vue.js</strong> / <strong>Vuex</strong> / <strong>Vue-router</strong> / <strong>Vue-CLI</strong> /
+        <strong>axios</strong> 的使用,能够使用Vue进行基本开发</li>
+      <li>了解 <strong>React</strong> / <strong>Redux</strong> /<strong>react-redux</strong> /
+        <strong>React-Router</strong> / <strong>Hooks API</strong> 的使用</li>
       <li>有 node.js的使用经验</li>
-      <li>了解 Webpack 配置, npm 包管理机制</li>
+      <li>熟悉 <strong>Echarts</strong> 的使用</li>
+      <li>熟悉 <strong>模块化</strong>，<strong>工程化开发</strong>，了解 Webpack 配置， npm 包管理机制</li>
       <li>掌握 Git/GitHub 工作部署流程</li>
       <li>善用 google , stackoverflow </li>
     </ul>
@@ -32,54 +39,101 @@
   <section class="projets">
     <h1>项目经历及作品</h1>
     <ol>
-      <li> 
-        <div class="title"><h3>花菜记账</h3>
-          <span>一款使用<strong>Vuejs</strong>开发的记账单页面多组件应用</span>
-          <a href="">源码</a>
-          <a href="">演示</a>
-        </div>
-      </li>
       <li>
-        <div class="title"><h3>轻ui</h3>
-        <span></span>
-        <a href="">源码</a>
-        <a href="">演示</a>
-      </div>
-        <p>还在做</p>
-      </li>
-      <li>
-        <div class="title"><h3>会动的POP子</h3>
-        <span>使用<strong>原生JS</strong>让POP子动起来</span>
-        <a href="">源码</a>
-        <a href="">演示</a>
+        <div class="title">
+          <h2>花菜记账</h2>
+          <div class="link">
+            <a href=" https://github.com/gitgundam/cash-app " target="_blank" >源码</a>
+            <a href="https://gitgundam.gitee.io/cash-app-website" target="_blank">演示</a>
+          </div>
         </div>
-        <p>到时候把皮卡丘改一下改成其他的</p>
+        <p><b>项目介绍: </b>花菜记账是一款使用<strong>Vuejs框架</strong>开发的记账单页面多组件应用,开发几乎全部使用
+          <strong>Type-Script</strong>，使用<strong>vue-property-decorator</strong>装饰器语法。该页面主要由Money，Labels，Statistics三个组件构成，分别对应不同的<strong>Vue-router</strong>路由页面。同时每个父组件组件包含子组件，如Charts，NumberPad，Output等。根据用户的操作，记账的金额，分类等各项值由各个子组件传递给父组件Money暂存，当用户点击确认时将所有信息传递到本地<strong>localstorage</strong>的中。再由<strong>Vuex</strong>统一管理本地的localstorage，在其他两个组件中共享信息，达到展示用户记录的效果。页面使用<strong>SCSS</strong>预处理。
+        </p>
+        <p>开发期间我手动封装了一个<strong>Echarts</strong>组件并<a href="https://blog.csdn.net/MS6324_ZAKU/article/details/110120712" target="_blank">发表博客</a>，解决了官方vue-echarts功能较为繁琐，不适用本项目场景等问题。同时在开发过程中，还遇到许多关于配置<strong>Webpack</strong>，Vue和TypeScript一系列问题，我记录了解决这些问题的过程，总结了<a href="https://blog.csdn.net/MS6324_ZAKU?spm=1010.2135.3001.5113" target="_blank">8篇博客</a></p>
+        <p><b>技术栈: </b><strong>Vue.js</strong> /
+        <strong>Vuex</strong> /
+        <strong>Vue-router</strong> /
+        <strong>Vue-CLI</strong> /
+        <strong>Type-Script</strong> /
+        <strong>vue-property-decorator</strong> /
+        <strong>Echarts</strong> / 
+        <strong>SCSS</strong>
+      </p>
       </li>
       <li>
         <div class="title">
-          <h3>写PPT啦</h3>
-          <span>一款使用<strong>原生js</strong>开发的在线PPT</span>
-          <a href="">源码</a>
-          <a href="">演示</a>
+          <h2>氢ui</h2>
+          <div class="link">
+            <a href="">源码</a>
+            <a href="">演示</a>
+          </div>
         </div>
+        <p><b>项目介绍: </b>占位，还没写完呢</p>
+        <p>占个位</p>
+        <p>占个位</p>
+        <p>占个位</p>
+        <p>占个位</p>
+        <p><b>技术栈: </b><strong>Vue.js</strong> /
+          <strong>Type-Script</strong> /
+          <strong>ES6</strong> / 
+          <strong>VuePress</strong> / 
+        </p>
       </li>
       <li>
         <div class="title">
-          <h3>CNODE社区</h3>
-          <span>使用<strong>Vuejs</strong>重构的CNODE社区</span>
-          <a href="">源码</a>
-          <a href="">演示</a>
+          <h2>会动的POP子</h2>
+          <div class="link">
+            <a href="https://github.com/gitgundam/Pikachu">源码</a>
+            <a href="https://gitgundam.github.io/Pikachu/src/index.html">演示</a>
+          </div>
         </div>
+        <p><b>项目介绍: </b>这是一个使用<strong>原生JS</strong>和CSS完成的项目,利用JS动态写入HTML和CSS,模拟从零到一画出POP子的过程.在制作过程中加深了我对CSS动画的理解。
+        </p>
+        <p><b>备注: </b>暂时是皮卡丘</p>
+        <p><b>技术栈: </b><strong>原生JavaScript</strong> / CSS / HTML </p>
+      </li>
+      <li>
+        <div class="title">
+          <h2>写PPT啦</h2>
+          <div class="link">
+            <a href="https://github.com/gitgundam/oneSlide">源码</a>
+            <a href="http://gitgundam.gitee.io/oneslide/demo.html">演示</a>
+          </div>
+        </div>
+        <p><b>项目介绍: </b><span>一款使用<strong>原生js</strong>开发的在线PPT</span></p>
+        <p><b>技术栈: </b>
+          <strong>原生JavaScript</strong> / 
+          CSS / 
+          HTML
+         </p>
+      </li>
+      <li>
+        <div class="title">
+          <h2>CNODE社区</h2>
+          <div class="link">
+            <a href="https://github.com/gitgundam/cnode">源码</a>
+            <a href="http://gitgundam.gitee.io/cnode/dist/index.html#/">演示</a>
+          </div>
+        </div>
+        <p><b>项目介绍: </b>这是我使用<strong>Vue.js</strong>重构的CNODE社区(PC端页面），通过使用<strong>Axios</strong>向Mock的随机数据的链接发送GET请求，得到数据后，使用CSS的<strong>grid、flex、float</strong>等常用属性将数据展示到页面上，同时将用户id等信息作为参数，通过传递并使用<strong>Vue-router</strong>实现论坛页面路由的跳转，可以展示CNODE论坛的页面。
+        </p>
+        <p><b>技术栈: </b><strong>Vue.js</strong> /
+          <strong>Vue-CLI</strong> /
+          <strong>Axios</strong> / 
+          <strong>Vue-router</strong> /          
+        </p>
       </li>
     </ol>
   </section>
   <section class="openSource">
     <h1>开源项目</h1>
     <ol>
-      <li>实现的webpack插件</li>
-      <li>原生实现的js组件</li>
+      <li>使用原生js手写的js组件</li>
+      <li>使用原生js手写实现简易的react <a href=""></a></li>
+      <li>发布至npm的天气插件</li>
       <li>手写的promise</li>
-      <li>手写的react hooks (还没写)</li>
+      <li>手写JSONP</li>
     </ol>
   </section>
   <section class="jobs">
@@ -91,4 +145,5 @@
     </section>
   </section>
 </body>
+
 </html>
