@@ -12,11 +12,13 @@
   <section class="info">
     <h1>王 威</h1>
     <img src="/QRimg/wangwei.png" class="name" alt="">
-    <p>男 | 24岁 | 前端开发工程师 | 大专 </p>
+    <p>男 | 24岁 | 前端开发工程师
+      <!-- | 大专  -->
+    </p>
     <p>手机/微信: 17826802670 | 邮箱: 335968838@qq.com</p>
     <p><a href="https://blog.csdn.net/MS6324_ZAKU?spm=1001.2014.3001.5113"
-        target="_blank">我的博客</a>,目前已有<strong>52</strong>篇技术博客,目前持续更新中</p>
-    <p><a href="https://github.com/gitgundam" target="_blank">我的GitHub</a>,过去4个月有200多次提交</p>
+        target="_blank">我的博客</a>,目前已有<strong>72</strong>篇技术博客,目前持续更新中</p>
+    <p><a href="https://github.com/gitgundam" target="_blank">我的GitHub地址</a></p>
   </section>
   <section class="skill">
     <h1>专业技能</h1>
@@ -24,45 +26,172 @@
       <li>能够使用 HTML5 标签编写<strong>语义化</strong>页面</li>
       <li>熟练使用 CSS/SCSS ,<strong>文档流</strong>,<strong>盒模型</strong>, flex/grid定位</li>
       <li>掌握JavaScript, <strong>TypeScript</strong> ,ES6+语法 , DOM操作 , BOM , Ajax , JSONP, 跨域 , 闭包 ,
-        <strong>原型链</strong>, <strong>this</strong> ,面向对象,Promis的使用
+        <strong>原型链</strong>, <strong>this</strong> ,面向对象,Promise的使用
+      </li>
+      <li>掌握<strong>Vite</strong>的使用
       </li>
       <li>掌握 <strong>Vue.js</strong> / <strong>Vuex</strong> / <strong>Vue-router</strong> / <strong>Vue-CLI</strong> /
-        <strong>axios</strong> 的使用,能够使用Vue进行基本开发</li>
+        <strong>axios</strong> 的使用,能够使用Vue进行开发
+      </li>
       <li>了解 <strong>React</strong> / <strong>Redux</strong> /<strong>react-redux</strong> /
-        <strong>React-Router</strong> / <strong>Hooks API</strong> 的使用</li>
+        <strong>React-Router</strong> / <strong>Hooks API</strong> 的使用
+      </li>
       <li>有 node.js的使用经验</li>
       <li>熟悉 <strong>Echarts</strong> 的使用</li>
       <li>熟悉 <strong>模块化</strong>，<strong>工程化开发</strong>，了解 Webpack 配置， npm 包管理机制</li>
       <li>掌握 Git/GitHub 工作部署流程</li>
       <li>善用 google , stackoverflow </li>
+      <li>负责公司前端的<strong>技术面试</strong></li>
     </ul>
   </section>
   <section class="projets">
-    <h1>项目经历及作品</h1>
+    <h1>项目经历</h1>
     <ol>
       <li>
         <div class="title">
-          <h2>花菜记账</h2>
+          <h2>联想MCT Smart MFG系统</h2>
+        </div>
+        <b>项目时间:</b> 2021-11-01 至今
+        <p><b>项目介绍: </b>
+
+          该项目由本人进行技术选型,日常分配前端工作内容,与项目经理确定任务排期.前端开发框架为<strong>Vue3</strong> ,使用<strong>script setup</strong> +
+          <strong>Composition API</strong>代替Vue2中传统的Options的写法,使得开发效率大大提高.同时使用
+          <strong>TypeScript</strong>代替JavaScript,改善了多人开发的效率.
+          本人该项目中使用Composition
+          API封装了<strong>useEcharts/useForm/useTable/useModal</strong>等多种<strong>hooks</strong>,抽离逻辑代码组件进行复用,提高了代码的维护性/可读性/复用性.状态管理使用<strong>Pinia</strong>,轻量化/品面化状态管理;使用
+          prettier 和
+          pretty-quick 进行代码自动格式化,规范组员代码样式,
+          项目使用<strong>Vite</strong>来进行构建,因为vite使用ESM模式进行HMR,不同于webpack,提高了开发效率.使用<strong>vite-plugin-optimize-persist</strong>对代码包进行预加载,减少了启动项目的时间.UI组件选型为<strong>Ant
+            Design Vue</strong>,根据联想IT所制定的UI规范,对部分组件进行了二次封装,
+          以符合UI规范.对于Ant Design不能满足的需求,本人手写的Date组件(可拖拽),Process组件,Modal Warning组件等其他自定义组件,部分组件使用tsx来进行编写.
+        <p><b>技术栈: </b>
+          <strong>Vue3</strong> /
+          <strong>Vite</strong> /
+          <strong>Pinia</strong> /
+          <strong>TypeScript</strong> /
+          <strong>vite-plugin-optimize-persist</strong> /
+          <strong>Echarts</strong> /
+          <strong>SCSS</strong>
+          <strong>VueUse</strong>
+        </p>
+      </li>
+
+      <li>
+        <div class="title">
+          <h2>桐昆集团数值运营中心</h2>
+        </div>
+        <b>项目时间:</b> 2021-01-01 至今 开发/维护
+        <p><b>项目介绍: </b>
+          使用vue2,对集团数智运行平台进行开发.组件库为Antd vue.
+        <p><b>技术栈: </b>
+          <strong>Vue2</strong> /
+          <strong>webpack</strong> /
+          <strong>Vuex</strong> /
+          <strong>Echarts</strong> /
+          <strong>SCSS</strong>
+        </p>
+      </li>
+
+      <li>
+        <div class="title">
+          <h2>桐昆集团未来工厂</h2>
+        </div>
+        <b>项目时间:</b> 2021-11-01 - 2021-12-01 (同时开发的项目)
+        <p><b>项目介绍: </b>
+          小项目,使用<strong>vue2和echart</strong>,对工厂智能排产进行轮询/轮播展示.
+        <p><b>技术栈: </b>
+          <strong>Vue2</strong> /
+          <strong>webpack</strong> /
+          <strong>Vuex</strong> /
+          <strong>TypeScript</strong> /
+          <strong>Echarts</strong> /
+          <strong>SCSS</strong>
+        </p>
+      </li>
+
+      <li>
+        <div class="title">
+          <h2>大云村5g智慧指挥中心小程序/大屏</h2>
+        </div>
+        <b>项目时间:</b> 2021-06-01 - 2022-02-01
+        <p><b>项目介绍: </b>
+          该项目分为小程序和展示大屏,大屏项目在腾讯地图中实现了电子围栏/老人超出围栏实时报警等功能.小程序和后端实现联合开发了一个积分商城,供村民使用,最后因为村里域名申请原因该小程序并未上线.
+        <p><b>技术栈: </b>
+          <strong>小程序</strong> /
+          <strong>Vue2</strong> /
+          <strong>Echarts</strong> /
+          <strong>SCSS</strong>
+        </p>
+      </li>
+
+      <li>
+        <div class="title">
+          <h2>嘉兴石化可视化</h2>
+        </div>
+        <b>项目时间:</b> 2021-01 - 2021-05
+        <p><b>项目介绍: </b>
+          工厂内部项目,使用<strong>Vue2/Element ui/Echarts</strong> 对工厂各个生产系统进行展示.
+        <p><b>技术栈: </b>
+          <strong>Vue2</strong> /
+          <strong>Webpack</strong> /
+          <strong>Echarts</strong> /
+          <strong>Element ui</strong>
+        </p>
+      </li>
+
+      <li>
+        <div class="title">
+          <h2>桐昆集团董事长预约系统客户端</h2>
+        </div>
+        <b>项目时间:</b> 2022-01-01 - 2022-02-01
+        <p><b>项目介绍: </b>
+          该项目使用<strong>Vue3 / TypeScript和 Electron</strong>开发的跨平台客户端应用.使用websocket来实现董事长对秘书们实时通讯的需求.以及其他预约功能.
+        <p><b>技术栈: </b>
+          <strong>Vue3</strong> /
+          <strong>Electron</strong> /
+          <strong>TypeScript</strong> /
+          <strong>SCSS</strong>
+        </p>
+      </li>
+      <li>
+        <div class="title">
+          <h2>桐昆集团数智运营Uniapp</h2>
+        </div>
+        <b>项目时间:</b> 2022-07-01 - 2022-09-01 至今维护
+        <p><b>项目介绍: </b>
+          该项目桐昆集团数智运营中心的<strong>Uniapp</strong>版,使用向日库进行IOS企业应用证书分发
+        <p><b>技术栈: </b>
+          <strong>Uniapp</strong> /
+        </p>
+      </li>
+
+
+
+
+
+      <!-- <h2>花菜记账</h2>
           <img src="/QRimg/cash-app.png" alt="">
           <div class="link">
-            <a href=" https://github.com/gitgundam/cash-app " target="_blank" >源码</a>
+            <a href=" https://github.com/gitgundam/cash-app " target="_blank">源码</a>
             <a href="https://gitgundam.gitee.io/cash-app-website" target="_blank">演示</a>
           </div>
         </div>
         <p><b>项目介绍: </b>花菜记账是一款使用<strong>Vuejs框架</strong>开发的记账单页面多组件应用,开发几乎全部使用
           <strong>Type-Script</strong>，使用<strong>vue-property-decorator</strong>装饰器语法。该页面主要由Money，Labels，Statistics三个组件构成，分别对应不同的<strong>Vue-router</strong>路由页面。同时每个父组件组件包含子组件，如Charts，NumberPad，Output等。根据用户的操作，记账的金额，分类等各项值由各个子组件传递给父组件Money暂存，当用户点击确认时将所有信息传递到本地<strong>localstorage</strong>的中。再由<strong>Vuex</strong>统一管理本地的localstorage，在其他两个组件中共享信息，达到展示用户记录的效果。页面使用<strong>SCSS</strong>预处理。
         </p>
-        <p>开发期间我手动封装了一个<strong>Echarts</strong>组件并<a href="https://blog.csdn.net/MS6324_ZAKU/article/details/110120712" target="_blank">发表博客</a>，解决了官方vue-echarts功能较为繁琐，不适用本项目场景等问题。同时在开发过程中，还遇到许多关于配置<strong>Webpack</strong>，Vue和TypeScript一系列问题，我记录了解决这些问题的过程，总结了<a href="https://blog.csdn.net/MS6324_ZAKU?spm=1010.2135.3001.5113" target="_blank">8篇博客</a></p>
+        <p>开发期间我手动封装了一个<strong>Echarts</strong>组件并<a href="https://blog.csdn.net/MS6324_ZAKU/article/details/110120712"
+            target="_blank">发表博客</a>，解决了官方vue-echarts功能较为繁琐，不适用本项目场景等问题。同时在开发过程中，还遇到许多关于配置<strong>Webpack</strong>，Vue和TypeScript一系列问题，我记录了解决这些问题的过程，总结了<a
+            href="https://blog.csdn.net/MS6324_ZAKU?spm=1010.2135.3001.5113" target="_blank">8篇博客</a></p>
         <p><b>技术栈: </b><strong>Vue.js</strong> /
-        <strong>Vuex</strong> /
-        <strong>Vue-router</strong> /
-        <strong>Vue-CLI</strong> /
-        <strong>Type-Script</strong> /
-        <strong>vue-property-decorator</strong> /
-        <strong>Echarts</strong> / 
-        <strong>SCSS</strong>
-      </p>
-      </li>
+          <strong>Vuex</strong> /
+          <strong>Vue-router</strong> /
+          <strong>Vue-CLI</strong> /
+          <strong>Type-Script</strong> /
+          <strong>vue-property-decorator</strong> /
+          <strong>Echarts</strong> /
+          <strong>SCSS</strong>
+        </p>
+      </li> -->
       <!-- <li>
         <div class="title">
           <h2>氢ui</h2>
@@ -80,7 +209,7 @@
           <strong>VuePress</strong> / 
         </p>
       </li> -->
-      <li>
+      <!-- <li>
         <div class="title">
           <h2>会动的皮卡丘</h2>
           <img src="/QRimg/pika.png" alt="">
@@ -103,14 +232,15 @@
           </div>
         </div>
         <p><b>项目介绍: </b><span>一款使用<strong>原生js</strong>开发的在线PPT</span>,
-          为了让用户更快更方便的写出既简约又美观的PPT。使用github上的开源项目oneslide作为基础，将该项目功能窗口化,面向用户。为了方便用户快速书写PPT，使用<strong>正则表达式</strong>匹配用户输入，再用<strong>localstorage</strong>保存到本地，实现展示PPT内容的功能。为了实现用户上传图片的功能，使用到了<strong>leancloud</strong>来保存用户的图片。同时，在二级菜单还可以更换PPT主题，下载PDF，多样化显示效果，演讲模式等功能。大大降低了用户的时间成本。</p>
+          为了让用户更快更方便的写出既简约又美观的PPT。使用github上的开源项目oneslide作为基础，将该项目功能窗口化,面向用户。为了方便用户快速书写PPT，使用<strong>正则表达式</strong>匹配用户输入，再用<strong>localstorage</strong>保存到本地，实现展示PPT内容的功能。为了实现用户上传图片的功能，使用到了<strong>leancloud</strong>来保存用户的图片。同时，在二级菜单还可以更换PPT主题，下载PDF，多样化显示效果，演讲模式等功能。大大降低了用户的时间成本。
+        </p>
         <p><b>技术栈: </b>
-          <strong>原生JavaScript</strong> / 
-          CSS / 
+          <strong>原生JavaScript</strong> /
+          CSS /
           HTML
-         </p>
-      </li>
-      <li>
+        </p>
+      </li> -->
+      <!-- <li>
         <div class="title">
           <h2>CNODE社区</h2>
           <img src="/QRimg/cnode.png" alt="">
@@ -119,46 +249,50 @@
             <a href="http://gitgundam.gitee.io/cnode/dist/index.html#/" target="_blank">演示</a>
           </div>
         </div>
-        <p><b>项目介绍: </b>这是我使用<strong>Vue.js</strong>重构的CNODE社区(PC端页面），通过使用<strong>Axios</strong>向Mock的随机数据的链接发送GET请求，得到数据后，使用CSS的<strong>grid、flex、float</strong>等常用属性将数据展示到页面上，同时将用户id等信息作为参数，通过传递并使用<strong>Vue-router</strong>实现论坛页面路由的跳转，可以展示CNODE论坛的页面。
+        <p><b>项目介绍:
+          </b>这是我使用<strong>Vue.js</strong>重构的CNODE社区(PC端页面），通过使用<strong>Axios</strong>向Mock的随机数据的链接发送GET请求，得到数据后，使用CSS的<strong>grid、flex、float</strong>等常用属性将数据展示到页面上，同时将用户id等信息作为参数，通过传递并使用<strong>Vue-router</strong>实现论坛页面路由的跳转，可以展示CNODE论坛的页面。
         </p>
         <p><b>技术栈: </b><strong>Vue.js</strong> /
           <strong>Vue-CLI</strong> /
-          <strong>Axios</strong> / 
-          <strong>Vue-router</strong> /          
+          <strong>Axios</strong> /
+          <strong>Vue-router</strong> /
         </p>
-      </li>
+      </li> -->
     </ol>
   </section>
   <section class="openSource">
     <h1>开源项目</h1>
     <ol>
-      <li><h3>使用原生js手写的ui组件</h3>
-      <p>这是我使用原生js实现的ui组件</p>
-      <a href="https://github.com/gitgundam/wheel-ui">地址: https://github.com/gitgundam/wheel-ui</a>
-    </li>
-      <li><h3>使用原生js手写实现简易的react</h3>
+      <li>
+        <h3>使用原生js手的ui组件</h3>
+        <p>这是我使用原生js实现的ui组件</p>
+        <a href="https://github.com/gitgundam/wheel-ui">地址: https://github.com/gitgundam/wheel-ui</a>
+      </li>
+      <!-- <li>
+        <h3>使用原生js手写实现简易的react</h3>
         <p>配置webpack和babel,然后使用原生js来实现部分react的功能 </p>
         <a href="https://github.com/gitgundam/webpack-react">地址: https://github.com/gitgundam/webpack-react</a>
-      </li>
+      </li> -->
       <li>
         <h3>发布至npm的天气插件</h3>
         <p>这是我封装的小模块,使用公开的天气查询api,只需使用npm install下载后即可使用查询天气功能</p>
         <a href="https://www.npmjs.com/~gitgundam">地址: https://www.npmjs.com/~gitgundam</a>
       </li>
-      <li><h3>手写JSONP</h3>
+      <!-- <li>
+        <h3>手写JSONP</h3>
         <p>使用js实现JSONP,通过博客展示详细过程,下面是博客地址</p>
-        <a href="https://blog.csdn.net/MS6324_ZAKU/article/details/110161760">地址: https://blog.csdn.net/MS6324_ZAKU/article/details/110161760</a>
-      </li>
-      <li>
+        <a href="https://blog.csdn.net/MS6324_ZAKU/article/details/110161760">地址:
+          https://blog.csdn.net/MS6324_ZAKU/article/details/110161760</a>
+      </li> -->
+      <!-- <li>
         <h3>手写的promise</h3>
         <p>原生js实现来promise的功能,并写了一篇博客,下面是博客地址</p>
-        <a href="https://blog.csdn.net/MS6324_ZAKU/article/details/108581291">地址: https://blog.csdn.net/MS6324_ZAKU/article/details/108581291</a>
-      </li>
+        <a href="https://blog.csdn.net/MS6324_ZAKU/article/details/108581291">地址:
+          https://blog.csdn.net/MS6324_ZAKU/article/details/108581291</a>
+      </li> -->
     </ol>
   </section>
   <section class="jobs">
-    <h1>我的经历</h1>
-    <p>本人于2017年毕业，从大二开始，就对前端很感兴趣。通过知乎，网课平台等各种途径，我花了一两年时间系统学习前端的知识，做知识的梳理。毕业之后误打误撞在老家做起了销售助理，发现自己还是更适合编程。从毕业到现在，平时就利用下班时间学习前端知识，前端方面的学习一直没有停过，也做了不少项目。正好今年疫情，更加坚定了我从业编程的想法，于是前来应聘。</p>
 </body>
 
 </html>
